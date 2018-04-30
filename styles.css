@@ -92,7 +92,8 @@ div, main, section, nav, header, footer {
 .button-more{
 	position:relative;
 	padding:5px 10px;
-	max-width:200px;
+	margin:0 0 20px 0;
+	max-width:300px;
 	display:flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -101,7 +102,14 @@ div, main, section, nav, header, footer {
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
-.button-more:hover{
+.button-more.button-more-work{
+	margin:0;
+}
+.button-more.button-more-links{
+	max-width:100%;
+	margin:0 0 5px 0;
+}
+.button-more-download:hover{
 	color:#afd3f5;
 }
 .button-more > a{
@@ -115,6 +123,26 @@ div, main, section, nav, header, footer {
 	color:#FFFFFF;
 	text-decoration:none;
 }
+.button-more-icon{
+	width:20px;
+}
 .button-more-label{
 	margin-left:10px;
+}
+.button-more-links .button-more-label{
+	margin-left:30px;
+}
+.button-more-links a{
+	color:#FFFFFF;
+	text-decoration:none;
+	-moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.button-more-links a:hover{
+	color:#afd3f5;
+}
+.button-more-links .linknote{
+	color:#AAAAAA;
+	font-size:.8em;
 }

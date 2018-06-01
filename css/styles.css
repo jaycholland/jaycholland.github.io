@@ -102,6 +102,10 @@ section, header, footer{
 	min-width:900px;
 	height:auto;
 	background-color:#111111;
+	background-image:url("../img/header-background-frame.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
 	transform:translate(-50%,-50%);
 }
 #intro-video-container::before{
@@ -121,7 +125,7 @@ section, header, footer{
 	width:100%;
 	height:100%;
 	opacity:0;
-	transition:opacity 0.3s;
+	transition:opacity 1s;
 }
 #intro-video-overlay{
 	position:absolute;

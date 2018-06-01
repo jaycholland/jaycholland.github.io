@@ -22,6 +22,7 @@ function onYouTubeIframeAPIReady() {
         showinfo:0,
         cc_load_policy:0,
         start:23,
+        end:181
     },
     events: {
         'onReady': onPlayerReady,
@@ -35,10 +36,10 @@ function onPlayerReady(event) {
 }
 var done = false;
 function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING && !done) {
+    if (event.data == YT.PlayerState.PLAYING) {
         document.getElementById("intro-video-background").style.opacity = 1;
-        //setTimeout(stopVideo, 6000);
-        //done = true;
+    } else if(event.data == YT.PlayerState.ENDED){
+        event.target.playVideo();
     }
 }
 function stopVideo() {

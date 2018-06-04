@@ -91,9 +91,6 @@ section, header, footer{
 	background-color:transparent;
 	overflow:hidden;
 }
-#myTitle{
-	/*transform:rotateY(89deg);*/
-}
 #intro-video-container{
 	position:absolute;
 	left:50%;

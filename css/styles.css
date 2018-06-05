@@ -156,17 +156,59 @@ section, header, footer{
 	color:#222222;
 }
 .section-work h3{
-	margin-bottom:15px;
+	margin-bottom:40px;
 }
-.section-work p{
+.item-recent-work{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	max-width:480px;
+	margin:0 auto 20px auto;
+	padding:20px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+}
+.item-recent-work p{
 	text-align:center;
+	line-height:1.7em;
 }
-.section-work a{
+.item-recent-work a{
 	color:#000000;
 	text-decoration:none;
 }
-.section-work a:hover{
+.item-recent-work a:hover{
 	text-decoration:underline;
+}
+.item-recent-work-image{
+	display:block;
+	position:relative;
+	flex-basis:100%;
+	width:100%;
+	flex-grow:0;
+	flex-shrink:0;
+	height:auto;
+	min-height:20px;
+	border:none;
+}
+.item-recent-work-image > img{
+	display:block;
+	position:relative;
+	left:0;
+	top:50%;
+	transform:translateY(-50%);
+	width:auto;
+	max-width:120px;
+	height:auto;
+	max-height:80px;
+	margin:0 auto 20px auto;
+}
+.item-recent-work-links{
+	display:block;
+	position:relative;
+	width:auto;
+	flex-grow:1;
+	height:auto;
 }
 .linknote{
 	font-size:.9em;
@@ -198,7 +240,6 @@ a.button.linkedin{
 	background-size:contain;
 	background-image:url("../img/social-linkedin.png");
 }
-
 @media only screen and (max-width:520px){
 	.section-inner > h1{
 		margin:40px 0 20px 0;

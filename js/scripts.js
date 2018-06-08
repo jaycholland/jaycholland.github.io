@@ -1,3 +1,4 @@
+/*
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -45,3 +46,7 @@ function onPlayerStateChange(event) {
 function stopVideo() {
     player.stopVideo();
 }
+*/
+
+new LuminousGallery(document.querySelectorAll('.gallery-img-1'), {}, {});
+new LuminousGallery(document.querySelectorAll('.gallery-img-2'), {}, {});

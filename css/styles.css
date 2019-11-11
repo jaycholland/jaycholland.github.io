@@ -149,9 +149,6 @@ section, header, footer{
 }
 .section-work{
 	background-color:rgb(241, 240, 238);
-	border-top:1px solid #CCCCCC;
-	border-bottom:1px solid #CCCCCC;
-	
 }
 .section-work .section-inner{
 	color:#222222;
@@ -168,11 +165,10 @@ section, header, footer{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
-	max-width:480px;
+	max-width:640px;
 	margin:0 auto 20px auto;
 	padding:20px;
 	background-color:#FFFFFF;
-	border:1px solid #CCCCCC;
 	overflow:hidden;
 }
 .item-recent-work-header{

@@ -283,15 +283,24 @@ section, header, footer{
 .lum-lightbox {
     background: rgba(0,0,0,.8);
 }
+.spacer-bottom{
+	background-color:#FFFFFF;
+	height:70px;
+}
 footer{
 	background-color:#FFFFFF;
 	text-align:center;
+	position: fixed;
+	bottom:0;
+}
+footer .section-inner{
+	padding:15px;
 }
 a.button{
 	display:inline-block;
 	position:relative;
 	width:auto;
-	margin:10px;
+	margin:0 10px;
 	padding:10px 20px;
 	background-color:rgb(29, 32, 83);
 	text-align:center;

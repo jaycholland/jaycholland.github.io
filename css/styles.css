@@ -166,6 +166,8 @@ section, header, footer{
 	position:relative;
 	display:flex;
 	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
 	width:100%;
 	max-width:400px;
 	margin:0 10px 20px 10px;
@@ -319,6 +321,7 @@ a.button.linkedin{
 	}
 	.item-recent-work{
 		margin:0 0 20px 0;
+	}
 }
 @media only screen and (max-width:460px){
 	.lum-gallery-button {
@@ -331,6 +334,9 @@ a.button.linkedin{
 	}
 }
 @media only screen and (max-width:420px){
+	.section-work .section-inner{
+		padding: 40px 0;
+	}
 	.item-recent-work-image{
 		max-width:80px;
 		margin-right:10px;

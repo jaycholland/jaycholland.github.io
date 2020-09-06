@@ -144,8 +144,9 @@ section, header, footer{
 .intro-paragraph > .section-inner > p{
 	position:relative;
 	width:100%;
-	max-width:640px;
+	max-width:720px;
 	margin:0 auto;
+	font-size: 1em;
 }
 .section-work{
 	background-color:rgb(241, 240, 238);
@@ -154,7 +155,8 @@ section, header, footer{
 	color:#222222;
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:flex-start;
+	justify-content:center;
+	max-width:1750px;
 }
 .section-work h3{
 	width:100%;
@@ -165,8 +167,8 @@ section, header, footer{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
-	max-width:640px;
-	margin:0 auto 20px auto;
+	max-width:400px;
+	margin:0 10px 20px 10px;
 	padding:20px;
 	background-color:#FFFFFF;
 	overflow:hidden;
@@ -315,6 +317,8 @@ a.button.linkedin{
 		margin:15px 0 40px 0;
 		font-size:1em;
 	}
+	.item-recent-work{
+		margin:0 0 20px 0;
 }
 @media only screen and (max-width:460px){
 	.lum-gallery-button {
